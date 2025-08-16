@@ -7,13 +7,10 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Manrope', Helvetica, Arial, 'sans-serifInter', sans-serif;
-  /* background-color: #0f1f50; */
    background-color: #618df3; 
 
-  color: #f1f5f9;            /* light text */
-  overflow-x: hidden !important;
-  /* -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
+  color: #f1f5f9; 
+
   scroll-behavior: smooth;
   line-height: 1.6;
 }
@@ -25,3 +22,6 @@ body {
   }
  
 
+html, body {
+  overflow-x: hidden;
+}
